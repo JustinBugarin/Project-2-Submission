@@ -1,0 +1,169 @@
+header,
+.event:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+.navbar .nav-link {
+  flex: auto;
+  color: #080808 !important;
+  font-family: macondo;
+  justify-content: center;
+}
+
+.navbar-brand {
+  flex: auto;
+  left: 50%;
+  font-size: 50px;
+  font-family: macondo;
+}
+
+.btn {
+  margin-right: 2rem;
+}
+.smaller-hero-img {
+ 
+  height: 50vh;
+}
+
+
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 50vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url('https://images.pexels.com/photos/1792149/pexels-photo-1792149.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url('https://images.unsplash.com/photo-1507682520764-93440a60e9b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(4) {
+  background-image: url('https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(5) {
+  background-image: url('https://plus.unsplash.com/premium_photo-1681558921634-f73645bde42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1285&q=80'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(6) {
+  background-image: url('https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(7) {
+  background-image: url('https://images.unsplash.com/photo-1474649107449-ea4f014b7e9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(8) {
+  background-image: url('https://images.unsplash.com/photo-1591635579375-b3fadafc58ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+}
+
+/* Fullscreen carousel */
+#eventCarousel {
+  height: 50vh;
+}
+
+#eventCarousel .carousel-inner {
+  height: 100%;
+}
+
+#eventCarousel .carousel-item {
+  height: 100%;
+}
+
+#eventCarousel .carousel-item>.row {
+  height: 100%;
+}
+
+/* .carousel-image {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+.carousel-caption {
+ 
+  background-color: rgba(0, 0, 0, 0.377);
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.carousel-caption h2,
+.carousel-caption h3,
+.carousel-caption h4,
+.carousel-caption h5,
+.carousel-caption h6 {
+  margin: 0;
+}
+
+.carousel-caption a {
+  color: #fff;
+  text-decoration: underline;
+}

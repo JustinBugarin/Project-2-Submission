@@ -1,0 +1,292 @@
+[
+  {
+    "name": "fun event",
+    "description": "a fun time out in the sun, bring sunscreen its hot out here",
+    "event_date": "2023-06-02"
+  },
+  {
+    "name": "beach event",
+    "description": "by the ocean cleanup, chill vibe, splash zone",
+    "event_date": "2028-03-09"
+  },
+  {
+    "name": "shelter assistance",
+    "description": "chillin with some homies but they don't go home after",
+    "event_date": "2028-04-21"
+  },
+  {
+    "name": "food drive",
+    "description": "i wonder what kinda goodies ppl left for us to pick upppppp",
+    "event_date": "2028-08-10"
+  },
+  {
+    "name": "park social event",
+    "description": "we at the park and it's byob! but pick up after yourself and one more piece of trash",
+    "event_date": "2023-06-02"
+  },
+  {
+    "name": "generic",
+    "description": "generiiicccc",
+    "event_date": "2028-03-09"
+  },
+  {
+    "name": "neighborhood beautification",
+    "description": "just a regular ole trash pick up",
+    "event_date": "2028-04-21"
+  },
+  {
+    "name": "blood drive",
+    "description": "mass congrigation outside plasma syphon building",
+    "event_date": "6666-06-06"
+  },
+  {
+    "name": "World Wildlife Fund Tree Planting",
+    "description": "Join us to restore the forest! Plant a tree, save the earth!",
+    "event_date": "2024-04-22"
+  },
+  {
+    "name": "Doctors Without Borders Charity Run",
+    "description": "Run for a cause, provide medical help to those who need it most. Remember to hydrate!",
+    "event_date": "2024-05-05"
+  },
+  {
+    "name": "UNICEF School Supplies Drive",
+    "description": "Help us collect school supplies for children around the world. Education is the key!",
+    "event_date": "2024-08-10"
+  },
+  {
+    "name": "Save the Children Food Drive",
+    "description": "Every child deserves a meal. Your small contribution can make a big difference!",
+    "event_date": "2024-11-20"
+  },
+  {
+    "name": "American Red Cross Blood Donation",
+    "description": "Donate blood, save lives! Don't forget to hydrate and have a healthy meal before donating.",
+    "event_date": "2024-06-14"
+  },
+  {
+    "name": "Oxfam International Book Sale",
+    "description": "Sell and buy books to raise funds to fight against poverty. Knowledge is power!",
+    "event_date": "2024-09-08"
+  },
+  {
+    "name": "Feeding America Food Bank Volunteering",
+    "description": "Let's fight hunger together! Help us distribute food to our community members.",
+    "event_date": "2024-07-15"
+  },
+  {
+    "name": "Amnesty International Human Rights Workshop",
+    "description": "Join our workshop to learn more about human rights and what you can do to support the cause!",
+    "event_date": "2024-10-17"
+  },
+  {
+    "name": "ACLU Voter Registration Drive",
+    "description": "Help us ensure everyone's right to vote. Democracy works best when we all participate!",
+    "event_date": "2024-01-15"
+  },
+  {
+    "name": "Habitat For Humanity House Building",
+    "description": "Bring a hammer and help us build homes for families in need. No experience necessary!",
+    "event_date": "2024-03-20"
+  },
+  {
+    "name": "Rotary International Community Cleanup",
+    "description": "Community service starts at home. Let's make our town the cleanest it can be!",
+    "event_date": "2024-05-30"
+  },
+  {
+    "name": "United Way Youth Mentoring Program",
+    "description": "Become a mentor and make a difference in a child's life. They're our future!",
+    "event_date": "2024-09-25"
+  },
+  {
+    "name": "Make-A-Wish Foundation Charity Auction",
+    "description": "Help us raise funds to fulfill the wishes of children with critical illnesses. Let's make dreams come true!",
+    "event_date": "2024-11-30"
+  },
+  {
+    "name": "Water.org Clean Water Drive",
+    "description": "Support our mission to provide clean water to everyone. Water is life!",
+    "event_date": "2024-12-10"
+  },
+  {
+    "name": "park social event",
+    "description": "we at the park and it's byob! but pick up after yourself and one more piece of trash",
+    "event_date": "2023-06-02"
+  },
+  {
+    "name": "generic",
+    "description": "generiiicccc",
+    "event_date": "2028-03-09"
+  },
+  {
+    "name": "neighborhood beautification",
+    "description": "just a regular ole trash pick up",
+    "event_date": "2028-04-21"
+  },
+  {
+    "name": "blood drive",
+    "description": "mass congrigation outside plasma syphon building",
+    "event_date": "6666-06-06"
+  },
+  {
+    "name": "World Wildlife Fund Tree Planting",
+    "description": "Join us to restore the forest! Plant a tree, save the earth!",
+    "event_date": "2024-04-22"
+  },
+  {
+    "name": "Doctors Without Borders Charity Run",
+    "description": "Run for a cause, provide medical help to those who need it most. Remember to hydrate!",
+    "event_date": "2024-05-05"
+  },
+  {
+    "name": "UNICEF School Supplies Drive",
+    "description": "Help us collect school supplies for children around the world. Education is the key!",
+    "event_date": "2024-08-10"
+  },
+  {
+    "name": "Save the Children Food Drive",
+    "description": "Every child deserves a meal. Your small contribution can make a big difference!",
+    "event_date": "2024-11-20"
+  },
+  {
+    "name": "American Red Cross Blood Donation",
+    "description": "Donate blood, save lives! Don't forget to hydrate and have a healthy meal before donating.",
+    "event_date": "2024-06-14"
+  },
+  {
+    "name": "Oxfam International Book Sale",
+    "description": "Sell and buy books to raise funds to fight against poverty. Knowledge is power!",
+    "event_date": "2024-09-08"
+  },
+  {
+    "name": "Feeding America Food Bank Volunteering",
+    "description": "Let's fight hunger together! Help us distribute food to our community members.",
+    "event_date": "2024-07-15"
+  },
+  {
+    "name": "Amnesty International Human Rights Workshop",
+    "description": "Join our workshop to learn more about human rights and what you can do to support the cause!",
+    "event_date": "2024-10-17"
+  },
+  {
+    "name": "ACLU Voter Registration Drive",
+    "description": "Help us ensure everyone's right to vote. Democracy works best when we all participate!",
+    "event_date": "2024-01-15"
+  },
+  {
+    "name": "Habitat For Humanity House Building",
+    "description": "Bring a hammer and help us build homes for families in need. No experience necessary!",
+    "event_date": "2024-03-20"
+  },
+  {
+    "name": "Rotary International Community Cleanup",
+    "description": "Community service starts at home. Let's make our town the cleanest it can be!",
+    "event_date": "2024-05-30"
+  },
+  {
+    "name": "United Way Youth Mentoring Program",
+    "description": "Become a mentor and make a difference in a child's life. They're our future!",
+    "event_date": "2024-09-25"
+  },
+  {
+    "name": "Make-A-Wish Foundation Charity Auction",
+    "description": "Help us raise funds to fulfill the wishes of children with critical illnesses. Let's make dreams come true!",
+    "event_date": "2024-11-30"
+  },
+  {
+    "name": "Water.org Clean Water Drive",
+    "description": "Support our mission to provide clean water to everyone. Water is life!",
+    "event_date": "2024-12-10"
+  },
+  {
+    "name": "park social event",
+    "description": "we at the park and it's byob! but pick up after yourself and one more piece of trash",
+    "event_date": "2023-06-02"
+  },
+  {
+    "name": "generic",
+    "description": "generiiicccc",
+    "event_date": "2028-03-09"
+  },
+  {
+    "name": "neighborhood beautification",
+    "description": "just a regular ole trash pick up",
+    "event_date": "2028-04-21"
+  },
+  {
+    "name": "blood drive",
+    "description": "mass congrigation outside plasma syphon building",
+    "event_date": "6666-06-06"
+  },
+  {
+    "name": "World Wildlife Fund Tree Planting",
+    "description": "Join us to restore the forest! Plant a tree, save the earth!",
+    "event_date": "2024-04-22"
+  },
+  {
+    "name": "Doctors Without Borders Charity Run",
+    "description": "Run for a cause, provide medical help to those who need it most. Remember to hydrate!",
+    "event_date": "2024-05-05"
+  },
+  {
+    "name": "UNICEF School Supplies Drive",
+    "description": "Help us collect school supplies for children around the world. Education is the key!",
+    "event_date": "2024-08-10"
+  },
+  {
+    "name": "Save the Children Food Drive",
+    "description": "Every child deserves a meal. Your small contribution can make a big difference!",
+    "event_date": "2024-11-20"
+  },
+  {
+    "name": "American Red Cross Blood Donation",
+    "description": "Donate blood, save lives! Don't forget to hydrate and have a healthy meal before donating.",
+    "event_date": "2024-06-14"
+  },
+  {
+    "name": "Oxfam International Book Sale",
+    "description": "Sell and buy books to raise funds to fight against poverty. Knowledge is power!",
+    "event_date": "2024-09-08"
+  },
+  {
+    "name": "Feeding America Food Bank Volunteering",
+    "description": "Let's fight hunger together! Help us distribute food to our community members.",
+    "event_date": "2024-07-15"
+  },
+  {
+    "name": "Amnesty International Human Rights Workshop",
+    "description": "Join our workshop to learn more about human rights and what you can do to support the cause!",
+    "event_date": "2024-10-17"
+  },
+  {
+    "name": "ACLU Voter Registration Drive",
+    "description": "Help us ensure everyone's right to vote. Democracy works best when we all participate!",
+    "event_date": "2024-01-15"
+  },
+  {
+    "name": "Habitat For Humanity House Building",
+    "description": "Bring a hammer and help us build homes for families in need. No experience necessary!",
+    "event_date": "2024-03-20"
+  },
+  {
+    "name": "Rotary International Community Cleanup",
+    "description": "Community service starts at home. Let's make our town the cleanest it can be!",
+    "event_date": "2024-05-30"
+  },
+  {
+    "name": "United Way Youth Mentoring Program",
+    "description": "Become a mentor and make a difference in a child's life. They're our future!",
+    "event_date": "2024-09-25"
+  },
+  {
+    "name": "Make-A-Wish Foundation Charity Auction",
+    "description": "Help us raise funds to fulfill the wishes of children with critical illnesses. Let's make dreams come true!",
+    "event_date": "2024-11-30"
+  },
+  {
+    "name": "Water.org Clean Water Drive",
+    "description": "Support our mission to provide clean water to everyone. Water is life!",
+    "event_date": "2024-12-10"
+  }
+]

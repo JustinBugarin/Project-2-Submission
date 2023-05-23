@@ -1,0 +1,139 @@
+
+
+
+<div id="eventCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    {{#each events as |event index|}}
+    <li data-target="#eventCarousel" data-slide-to="{{index}}" {{#if @first}}class="active" {{/if}}></li>
+    {{/each}}
+  </ol>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    {{#each events as |event index|}}
+    <div class="carousel-item{{#if @first}} active{{/if}}">
+      <div class="row mb-4 event">
+        <div class="col-md-12">
+          <div class="carousel-image" style="background-image: url('{{get_emoji}}');">
+            <div class="carousel-caption d-flex align-items-end justify-content-center">
+              <h2>Current Events:</h2>
+              <h1>{{format_date event.event_date}}</h1>
+              <h3><a href="/event/{{event.event_id}}">{{event.name}}</a></h3>
+              <h4><span>{{event.description}}</span></h4>
+              <h5>{{format_amount event.needed_volunteers}} needed!</h5>
+              <h6>Created by {{event.creator.username}} on {{format_date event.date_created}}</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+
+  <!-- Controls -->
+  <a class="carousel-control-prev" href="#eventCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#eventCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!--Main layout-->
+  <main class="mt-5">
+    <div class="container">
+      <!--Section: Content-->
+      <section>
+        <div class="row">
+          <div class="col-md-6 gx-5 mb-4">
+            <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
+              <img src="https://images.unsplash.com/photo-1523287281576-5b596107a6ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 gx-5 mb-4">
+            <h4><strong>Volunteering Can Be Fun!!!</strong></h4>
+            <p class="text-muted">
+              Free kayaks provided to river sewards who attend river cleanups. What a fun way to keep your beautiful water clean!
+                        
+            </p>
+            <p><strong>Service Hours Needed? </strong></p>
+            <p class="text-muted">
+              We partner you with organizations that can fulfill service hours needed, whether it's to clear that traffic ticket, 
+              get hours for school, pad your resume, etc. 
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+
+      <hr class="my-5" />
+
+      <!--Section: Content-->
+      <section class="text-center">
+        <h4 class="mb-5"><strong>Some of the Organizations we partner you with:</strong></h4>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">National Parks Service</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="https://www.nps.gov/index.htm" target=”_blank” class="btn btn-primary">Visit NPS</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1286&q=80" class="img-fluid" />
+                <a href="https://sanmarcosriver.org/volunteer-projects/river-clean-ups/">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Amimal Shelters</h5>
+                <p class="card-text">
+                  Do something good for your fuzzy friends! Be sure not to take too many home! 
+                </p>
+                <a href="https://www.austintexas.gov/austin-animal-center" target=”_blank” class="btn btn-primary">Help a FurBaby</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="https://images.unsplash.com/photo-1513966007261-5a86a5284471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Equestrian</h5>
+                <p class="card-text">
+                  Get to know the ins and outs of caring for a horse, and go for a theraputic ride once your service hours are completed for the day. 
+                </p>
+                <a href="https://www.meadowhavenrescue.com/volunteer" target=”_blank” class="btn btn-primary">Help a Horse</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>

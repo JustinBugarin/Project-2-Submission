@@ -1,0 +1,109 @@
+<div class="row">
+  <div class="col-auto">
+    <h2>Welcome, {{username}}!</h2>
+  </div>
+</div>
+<div class="col-md-6">
+
+
+  <h2>Your Profile:</h2>
+  <form class="form Edit-form">
+    <div class="form-group">
+      <label for="edit-username">Username:</label>
+      <input class="form-input" type="text" id="edit-username" placeholder="{{username}}" />
+    </div>
+    {{#if is_organizer}}
+    <div class="form-group">
+      <label for="edit-organization">Organization:</label>
+      <input class="form-input" type="text" id="edit-organization" placeholder="{{organization}}" />
+    </div>
+    <div class="form-group">
+      <label for="edit-organization-url">Organization URL:</label>
+      <input class="form-input" type="text" id="edit-organization-url" placeholder="{{organization_url}}" />
+    </div>
+    {{/if}}
+    <div class="form-group">
+      <label for="edit-email">Email:</label>
+      <input class="form-input" type="text" id="edit-email" placeholder="{{email}}" />
+    </div>
+    <div class="form-group">
+      <label for="edit-password">Password:</label>
+      <input class="form-input" type="password" id="edit-password" />
+    </div>
+    <div class="form-group">
+      <button class="btn btn-primary" type="submit">Update</button>
+    </div>
+  </form>
+
+</div>
+
+
+{{#if is_organizer}}
+<div class="row mt-4">
+
+  <h3>Create a New Event:</h3>
+
+  <form class="form new-event-form">
+    <div class="form-group">
+      <label for="event-name">Event name:</label>
+      <input class="form-input" type="text" id="event-name" name="event-name" />
+    </div>
+    <div class="form-group">
+      <label for="event-desc">Event description:</label>
+      <textarea class="form-input" id="event-desc" name="event-desc"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="event-date">Event date:</label>
+      <input class="form-input" type="date" id="event-date" name="event-date" />
+    </div>
+    <div class="form-group">  
+      <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+  </form>
+</div>
+{{/if}}
+
+
+{{#if events.length}}
+<div class="row mt-4">
+  <div class="col-md-6 event-list">
+    <h3>Current Events:</h3>
+
+    {{#each events as |event|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/event/{{event.event_id}}">{{event.name}}</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger unsubscribe-button" data-id="{{event.event_id}}">Unsubscribe</button>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
+{{/if}}
+
+{{!-- need logic for delete created events below and the get created events to fill this, think its a fetch GET with user.getEvents--}}
+{{#if is_organizer}}
+<div class="row mt-4">
+  <div class="col-md-6 event-list">
+    <h3>Created Events:</h3>
+    {{#if createdEvents}}
+    {{#each createdEvents}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/event/{{event_id}}">{{name}}</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="{{event_id}}">Delete</button>
+      </div>
+    </div>
+    {{/each}}
+    {{else}}
+    <p>Make a event!</p>
+    {{/if}}
+  </div>
+</div>
+{{/if}}
+
+<script src="./js/profile.js"></script>

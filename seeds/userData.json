@@ -1,0 +1,313 @@
+[
+  {
+    "username": "ivan512",
+    "name": "ivan",
+    "is_organizer": true,
+    "email": "ivan@gmail.com",
+    "password": "password12345",
+    "organization": "World Wildlife Fund",
+    "organization_url": "https://www.worldwildlife.org/"
+  },
+  {
+    "username": "sara512",
+    "name": "sara",
+    "is_organizer": false,
+    "email": "sara@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "knox512",
+    "name": "sam",
+    "email": "sam@gmail.com",
+    "password": "password12345",
+    "completedEvents": 10
+  },
+  {
+    "username": "justin512",
+    "name": "josh",
+    "is_organizer": true,
+    "organization": "Doctors Without Borders",
+    "organization_url": "https://www.doctorswithoutborders.org/",
+    "email": "josh@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "Mary987",
+    "name": "Mary",
+    "is_organizer": true,
+    "organization": "UNICEF",
+    "organization_url": "https://www.unicef.org/",
+    "email": "mary@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "MichaelX",
+    "name": "Mike",
+    "is_organizer": false,
+    "email": "mike@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "Sarahhhh",
+    "name": "Sarah",
+    "email": "sarah@gmail.com",
+    "password": "password12345",
+    "completedEvents": 6
+  },
+  {
+    "username": "NPS Allen",
+    "name": "Allen",
+    "is_organizer": true,
+    "organization": "Save the Children",
+    "organization_url": "https://www.savethechildren.org/",
+    "email": "allen@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "MEGAN12345",
+    "name": "megan",
+    "is_organizer": true,
+    "organization": "American Red Cross",
+    "organization_url": "https://www.redcross.org/",
+    "email": "megan@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "Walleee",
+    "name": "Walter White",
+    "is_organizer": false,
+    "email": "walter@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "Lemonhead123",
+    "name": "Lenny",
+    "email": "lenny@gmail.com",
+    "password": "password12345",
+    "completedEvents": 2
+  },
+  {
+    "username": "benjamin526",
+    "name": "Benjamin",
+    "is_organizer": true,
+    "organization": "Oxfam International",
+    "organization_url": "https://www.oxfam.org/",
+    "email": "benjamin@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "emily698",
+    "name": "Emily",
+    "is_organizer": false,
+    "email": "emily@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "noah527",
+    "name": "Noah",
+    "email": "noah@gmail.com",
+    "password": "password12345",
+    "completedEvents": 8
+  },
+  {
+    "username": "michael689",
+    "name": "Michael",
+    "is_organizer": true,
+    "organization": "Feeding America",
+    "organization_url": "https://www.feedingamerica.org/",
+    "email": "michael@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "lucy643",
+    "name": "Lucy",
+    "is_organizer": true,
+    "organization": "Amnesty International",
+    "organization_url": "https://www.amnesty.org/",
+    "email": "lucy@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "ryan537",
+    "name": "Ryan",
+    "is_organizer": false,
+    "email": "ryan@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "julia552",
+    "name": "Julia",
+    "email": "julia@gmail.com",
+    "password": "password12345",
+    "completedEvents": 7
+  },
+  {
+    "username": "robert502",
+    "name": "Robert",
+    "is_organizer": true,
+    "organization": "ACLU",
+    "organization_url": "https://www.aclu.org/",
+    "email": "robert@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "linda598",
+    "name": "Linda",
+    "is_organizer": true,
+    "organization": "Habitat For Humanity",
+    "organization_url": "https://www.habitat.org/",
+    "email": "linda@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "brian579",
+    "name": "Brian",
+    "is_organizer": false,
+    "email": "brian@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "rebecca592",
+    "name": "Rebecca",
+    "email": "rebecca@gmail.com",
+    "password": "password12345",
+    "completedEvents": 9
+  },
+  {
+    "username": "richard564",
+    "name": "Richard",
+    "is_organizer": true,
+    "organization": "Rotary International",
+    "organization_url": "https://www.rotary.org/",
+    "email": "richard@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "emma582",
+    "name": "Emma",
+    "is_organizer": true,
+    "organization": "United Way",
+    "organization_url": "https://www.unitedway.org/",
+    "email": "emma@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "chris552",
+    "name": "Chris",
+    "is_organizer": false,
+    "email": "chris@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "sophia590",
+    "name": "Sophia",
+    "email": "sophia@gmail.com",
+    "password": "password12345",
+    "completedEvents": 5
+  },
+  {
+    "username": "john587",
+    "name": "John",
+    "is_organizer": true,
+    "organization": "Doctors Without Borders",
+    "organization_url": "https://www.doctorswithoutborders.org/",
+    "email": "john@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "olivia619",
+    "name": "Olivia",
+    "is_organizer": true,
+    "organization": "Make-A-Wish Foundation",
+    "organization_url": "https://wish.org/",
+    "email": "olivia@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "david629",
+    "name": "David",
+    "is_organizer": false,
+    "email": "david@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "hannah627",
+    "name": "Hannah",
+    "email": "hannah@gmail.com",
+    "password": "password12345",
+    "completedEvents": 4
+  },
+  {
+    "username": "daniel646",
+    "name": "Daniel",
+    "is_organizer": true,
+    "organization": "Water.org",
+    "organization_url": "https://water.org/",
+    "email": "daniel@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "madison638",
+    "name": "Madison",
+    "is_organizer": true,
+    "organization": "Oxfam International",
+    "organization_url": "https://www.oxfam.org/",
+    "email": "madison@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "matthew619",
+    "name": "Matthew",
+    "is_organizer": false,
+    "email": "matthew@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "grace642",
+    "name": "Grace",
+    "email": "grace@gmail.com",
+    "password": "password12345",
+    "completedEvents": 3
+  },
+  {
+    "username": "anthony650",
+    "name": "Anthony",
+    "is_organizer": true,
+    "organization": "The Nature Conservancy",
+    "organization_url": "https://www.nature.org/",
+    "email": "anthony@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "victoria652",
+    "name": "Victoria",
+    "is_organizer": true,
+    "organization": "The Humane Society",
+    "organization_url": "https://www.humanesociety.org/",
+    "email": "victoria@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "donald664",
+    "name": "Donald",
+    "is_organizer": false,
+    "email": "donald@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "username": "elizabeth669",
+    "name": "Elizabeth",
+    "email": "elizabeth@gmail.com",
+    "password": "password12345",
+    "completedEvents": 6
+  },
+  {
+    "username": "andrew670",
+    "name": "Andrew",
+    "is_organizer": true,
+    "organization": "apple123",
+    "organization_url": "https://www.apple.com/",
+    "email": "andrew@gmail.com",
+    "password": "password12345"
+  }
+]
