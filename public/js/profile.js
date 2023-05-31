@@ -21,9 +21,6 @@ const editFormHandler = async (event) => {
   if (email) {
     formData.email = email;
   }
-  if (password) {
-    formData.password = password;
-  }
 
   const response = await fetch('/api/user', {
     method: 'PUT',
@@ -34,12 +31,30 @@ const editFormHandler = async (event) => {
   });
 
   if (response.ok) {
-    alert("Your profile has been updated!");
+    if (password) {
+      const passwordResponse = await fetch('/api/user/password', {
+        method: 'PUT',
+        body: JSON.stringify({ password }),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (passwordResponse.ok) {
+        alert("Your profile and password have been updated!");
+      } else {
+        alert('Failed to update password');
+      }
+    } else {
+      alert("Your profile has been updated!");
+    }
+    
     document.location.replace('/profile');
   } else {
     alert('Failed to update profile');
   }
 };
+
 
 const newFormHandler = async (event) => {
   event.preventDefault();
@@ -74,11 +89,13 @@ const delButtonHandler = async (event) => {
       method: 'DELETE',
     });
 
+    const data = await response.json();
+
     if (response.ok) {
-      alert('Event deleted successfully');
+      alert(data.message);
       document.location.replace('/profile');
     } else {
-      alert('Failed to delete event');
+      alert('Failed!!!');
     }
   }
 };

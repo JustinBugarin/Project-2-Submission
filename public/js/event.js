@@ -24,3 +24,29 @@ const subscribeButtonHandler = async (event) => {
 if(document.querySelector('.btn-dark')){
 document.querySelector('.btn-dark').addEventListener('click', subscribeButtonHandler);
 }
+
+const newCommentFormHandler = async (event) => {
+  event.preventDefault();
+
+  const comment = document.querySelector('#comment').value.trim();
+  const event_id = event.target.getAttribute('data-event-id');
+  if (comment) {
+    const response = await fetch(`/api/comment/${event_id}`, {
+      method: 'POST',
+      body: JSON.stringify({ comment }),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+
+    if (response.ok) {
+      document.location.reload();
+    } else {
+      alert('Failed to create comment');
+    }
+  }
+};
+
+document
+  .querySelector('.new-comment-form')
+  .addEventListener('submit', newCommentFormHandler);

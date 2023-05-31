@@ -30,7 +30,7 @@ router.delete('/:event_id', withAuth, async (req, res) => {
     if (user.is_organizer === true) {
       // User is an organizer, delete the event
       await event.destroy();
-      res.status(200).json({ message: 'Event deleted successfully' });
+      res.status(200).json({ message: 'Delete success' });
     } else {
       // User is not an organizer, remove the event from the user's subscriptions
       await user.removeEvent(event);

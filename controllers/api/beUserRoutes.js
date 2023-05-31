@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { User } = require('../../models');
+const withAuth = require('../../utils/auth');
 
 router.post('/', async (req, res) => {
   try {
@@ -18,7 +19,7 @@ router.post('/', async (req, res) => {
 
 router.put('/', async (req, res) => {
   try {
-    const { username, organization, organization_url, email, password } = req.body;
+    const { username, organization, organization_url, email } = req.body;
 
     // Find the user by their ID
     const user = await User.findByPk(req.session.user_id);
@@ -41,9 +42,6 @@ router.put('/', async (req, res) => {
     if (email) {
       user.email = email;
     }
-    if (password) {
-      user.password = password;
-    }
 
     // Save the updated user data
     await user.save();
@@ -53,6 +51,30 @@ router.put('/', async (req, res) => {
     res.status(200).json({ message: 'User updated successfully' });
   } catch (err) {
     res.status(500).json({ error: 'Failed to update user' });
+  }
+});
+
+router.put('/password', withAuth, async (req, res) => {
+  try {
+    const userData = await User.findOne({
+      where: { user_id: req.session.user_id }
+    });
+
+    if (!userData) {
+      res.status(404).json({ message: 'No user found with this id!' });
+      return;
+    }
+    
+    const password = await bcrypt.hash(req.body.password, 10);
+
+    await User.update(
+      { password },
+      { where: { user_id: req.session.user_id }}
+    );
+
+    res.status(200).json({ message: 'Password updated successfully!' });
+  } catch (err) {
+    res.status(500).json(err);
   }
 });
 

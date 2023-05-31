@@ -43,7 +43,7 @@ header,
 }
 .smaller-hero-img {
  
-  height: 50vh;
+  background-size: cover;
 }
 
 
